@@ -1,0 +1,116 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*custom css*/
+.hero {
+    position: relative;
+    height: 80vh;
+    background: url('../Images/hero-cover-image.jpg');
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.703);
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    padding: 15% 0%;
+}
+
+.our-course .col-md-4 {
+    padding: 1rem;
+}
+
+.our-course img {
+    height: 15rem;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+}
+
+.our-teacher {
+    position: relative;
+    background: url('your-image.jpg') center/cover no-repeat;
+    height: 80vh;
+    background: url(/src/school-imge.jpg);
+}
+
+    .our-teacher::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.703);
+    }
+
+.subscribe {
+    position: relative;
+    background: url('your-image.jpg') center/cover no-repeat;
+    height: 50vh;
+    background: url(/src/school-imge.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .subscribe::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.703);
+    }
+
+    .subscribe div {
+        position: relative;
+    }
+/*custom css*/
